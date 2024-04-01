@@ -6,14 +6,14 @@ import { FaMobile } from 'react-icons/fa';
 const Personages = () => {
   console.log('test');
   return (
-    <div className="bg-black">
+    <div className="bg-[#02144B] ">
       <div>
         <Navbar />
         <h1 className="mt-4 text-center text-[35px] text-yellow-500">
           Osobnosti
         </h1>
         {/* Krajci */}
-        <div className="flex flex-col items-center justify-center gap-16 px-4 pb-16 pt-8 lg:flex-row lg:gap-[15%] lg:px-[20%] xl:px-[20%] 2xl:gap-[20%]">
+        <div className="flex flex-col items-center justify-center gap-16 bg-[#02144B] px-4 pb-16 pt-8 lg:flex-row lg:gap-[15%] lg:px-[20%] xl:px-[20%] 2xl:gap-[20%]  2xl:px-[25%]">
           <div>
             <Image
               src={'/mKrajci.webp'}
@@ -33,7 +33,7 @@ const Personages = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-4 bg-white px-4 py-12 text-justify text-[20px] lg:px-[20%] xl:px-[20%] 2xl:px-[25%] ">
+      <div className="flex flex-col gap-4 bg-[#02144B] px-4 py-12 text-justify text-[20px] text-white lg:px-[20%] xl:px-[20%] 2xl:px-[25%] ">
         <p>
           Je laureátom medzinárodnej dirigentskej súťaže „Maestro Silva Pereira
           Prize“, Porto (Portugalsko, 2002) a Medzinárodnej skladateľskej
@@ -61,7 +61,7 @@ const Personages = () => {
         </p>
       </div>
       {/* desktop Torok */}
-      <div className="hidden flex-col items-center justify-center gap-16 px-4 pb-16 pt-8 lg:flex lg:flex-row lg:gap-[15%] lg:px-[20%]  2xl:px-[25%]">
+      <div className="hidden flex-col items-center justify-center gap-16 bg-black px-4 pb-16 pt-8 lg:flex lg:flex-row lg:gap-[15%] lg:px-[20%]  2xl:px-[25%]">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-center text-[55px] leading-[55px] text-yellow-500 lg:px-0 lg:text-[55px]">
             František Török
@@ -81,7 +81,7 @@ const Personages = () => {
         </div>
       </div>
       {/* mobile Torok */}
-      <div className="flex flex-col items-center justify-center gap-16 px-4 pb-16 pt-8 lg:hidden">
+      <div className="flex flex-col items-center justify-center gap-16 bg-black px-4 pb-16 pt-8 lg:hidden">
         <div>
           <Image
             src={'/Torok00.jpg'}
@@ -100,7 +100,7 @@ const Personages = () => {
           </h2>
         </div>
       </div>
-      <div className="flex flex-col gap-4 bg-white px-4 py-12 text-justify text-[20px] lg:px-[20%] xl:px-[20%]  2xl:px-[25%]">
+      <div className="flex flex-col gap-4 bg-black px-4 py-12 text-justify text-[20px] text-white lg:px-[20%] xl:px-[20%]  2xl:px-[25%]">
         <p>
           Študoval na Štátnom konzervatóriu v Bratislave, u prof. Andrey
           Šestákovej, absolventky Konzervatória v Moskve, v majstrovskej triede
@@ -146,7 +146,7 @@ const Personages = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 bg-white px-4 py-12 text-justify text-[20px] lg:px-[20%] xl:px-[20%] 2xl:px-[25%]">
+      <div className="flex flex-col gap-4  bg-[#02144B] px-4 py-12 text-justify text-[20px] text-white lg:px-[20%] xl:px-[20%] 2xl:px-[25%]">
         <p>
           Študoval na Štátnom konzervatóriu v Bratislave (Z. Bílek) a na VŠMU v
           Bratislave (O. Lenárd, B. Juhaňáková, P. Feranec). V roku 2004
@@ -165,7 +165,7 @@ const Personages = () => {
       </div>
       {/* desktop Pragant */}
 
-      <div className="hidden flex-row items-center justify-center gap-16 px-4 pb-16 pt-8 lg:flex lg:gap-[2.5%] lg:px-[20%]  2xl:px-[25%]">
+      <div className="hidden flex-row items-center justify-center gap-16 bg-black px-4 pb-16 pt-8 lg:flex lg:gap-[2.5%] lg:px-[20%]  2xl:px-[25%]">
         <div className="flex w-[30%] flex-col justify-between gap-[40px]">
           <h1 className="text-center text-[30px] leading-[30px] text-yellow-500 lg:px-0">
             Prof. Ján Pragant
@@ -222,7 +222,7 @@ const Personages = () => {
         </div>
       </div> */}
       {/* mobile Pragant */}
-      <div className="flex flex-col items-center justify-center gap-16 px-4 pb-16 pt-8 lg:hidden">
+      <div className="flex flex-col items-center justify-center gap-16 bg-black px-4 pb-16 pt-8 lg:hidden">
         <div>
           <Image
             src={'/pragant.webp'}
@@ -241,7 +241,7 @@ const Personages = () => {
           </h2>
         </div>
       </div>
-      <div className="flex flex-col gap-4 bg-white px-4 py-12 text-justify text-[20px] lg:hidden">
+      <div className="flex flex-col gap-4 bg-black px-4 py-12 text-justify text-[20px] text-white lg:hidden">
         <p>
           Významná osobnosť slovenského hudobného života, orchestrálny hráč,
           koncertný majster a znalec orchestrálnej tvorby, pedagóg na Štátnom
@@ -258,7 +258,7 @@ const Personages = () => {
       </div>
 
       {/* Drmola desktop      */}
-      <div className="hidden flex-row items-center justify-center gap-16 bg-[#584743] px-4 pb-16 pt-8 lg:flex lg:gap-[2.5%]  lg:px-[20%] 2xl:px-[25%]">
+      <div className="hidden flex-row items-center justify-center gap-16  bg-[#02144B] px-4 pb-16 pt-8 lg:flex lg:gap-[2.5%]  lg:px-[20%] 2xl:px-[25%]">
         <div className="flex w-[30%] flex-col justify-between gap-[20px]">
           <h1 className="text-center text-[30px] leading-[30px] text-yellow-500 lg:px-0">
             Jindřich Drmola
@@ -312,7 +312,7 @@ const Personages = () => {
           </h2>
         </div>
       </div>
-      <div className="flex flex-col gap-4 bg-white px-4 py-12 text-justify text-[20px] lg:hidden">
+      <div className="flex flex-col gap-4  bg-[#02144B] px-4 py-12 text-justify text-[20px] text-white lg:hidden">
         <p>
           Jeden z dvojice zakladateľov Komorného orchestra Technik. Vďaka jeho
           pôsobeniu sa orchester ako amatérske teleso postupne posúval na
@@ -326,7 +326,7 @@ const Personages = () => {
       </div>
 
       {/* desktop Somora */}
-      <div className="hidden flex-row items-center justify-center gap-16 px-4 pb-16 pt-8 lg:flex lg:gap-[2.5%] lg:px-[20%]  2xl:px-[25%]">
+      <div className="hidden flex-row items-center justify-center gap-16 bg-black px-4 pb-16 pt-8 lg:flex lg:gap-[2.5%] lg:px-[20%]  2xl:px-[25%]">
         <div className="flex w-[30%] flex-col justify-between gap-[80px]">
           <h1 className="text-center text-[30px] leading-[30px] text-yellow-500 lg:px-0">
             Zdeno Somora
@@ -385,7 +385,7 @@ const Personages = () => {
         </div>
       </div> */}
       {/* mobile Somora */}
-      <div className="flex flex-col items-center justify-center gap-16 px-4 pb-16 pt-8 lg:hidden">
+      <div className="flex flex-col items-center justify-center gap-16 bg-black px-4 pb-16 pt-8 lg:hidden">
         <div>
           <Image
             src={'/somora.webp'}
@@ -404,7 +404,7 @@ const Personages = () => {
           </h2>
         </div>
       </div>
-      <div className="flex flex-col gap-4 bg-white px-4 py-12 text-justify text-[20px] lg:hidden">
+      <div className="flex flex-col gap-4 bg-black px-4 py-12 text-justify text-[20px] text-white lg:hidden">
         <p>
           Jeden z dvojice zakladateľov Komorného orchestra Technik. Spolu s
           Jindřichom Drmolom postupne posúvali orchester ako amatérske teleso na
