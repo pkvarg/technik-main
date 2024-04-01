@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+.techhero {
+  background-image: linear-gradient(to top, #12121138, #0d0c0c9c),
+    url('/techhero.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.concourse {
+  background-image: linear-gradient(to top, #12121138, #0d0c0c9c),
+    url('/concoursebg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* width: 100%; */
+}
+
+.form-control {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .techhero {
+    background-size: calc(310%);
+  }
+}
