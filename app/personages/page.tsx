@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import { FaMobile } from 'react-icons/fa';
 
 const Personages = () => {
+  console.log('test');
   return (
     <div className="bg-black">
       <div>
