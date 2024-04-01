@@ -95,7 +95,7 @@ const Navbar = () => {
                     Kto sme
                   </Link>
                   <Link
-                    href={'/about'}
+                    href={'/repertoire'}
                     className="cursor-pointer hover:text-yellow-500"
                   >
                     Repertoár

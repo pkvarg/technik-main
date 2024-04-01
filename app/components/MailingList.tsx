@@ -81,7 +81,7 @@ const MailingList = () => {
 
           <button
             type="submit"
-            className="mt-8 w-[50%] rounded-xl bg-[#4c230e] py-2  text-yellow-300 hover:rounded-xl "
+            className="mt-8 w-[50%] rounded-xl bg-[#0e297c] py-2  text-yellow-300 hover:rounded-xl "
           >
             Poslať
           </button>
