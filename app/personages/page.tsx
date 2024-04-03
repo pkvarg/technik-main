@@ -20,7 +20,8 @@ const Personages = () => {
               height={500}
               width={500}
               alt="Mirko Krajci"
-              className="w-[100%] px-0 lg:w-[450px]"
+              className="w-[300px] px-0 md:w-[400px] lg:w-[450px] lg:px-0"
+              //className="w-[100%] px-0 lg:w-[450px]"
             />
           </div>
           <div className="">
@@ -88,7 +89,7 @@ const Personages = () => {
             height={500}
             width={500}
             alt="Frantisek Torok"
-            className="w-[100%] px-0 lg:w-[75%] lg:px-0"
+            className="w-[300px] px-0 md:w-[400px] lg:w-[450px] lg:px-0"
           />
         </div>
         <div>
@@ -133,7 +134,7 @@ const Personages = () => {
             height={500}
             width={500}
             alt="Martin Leginus"
-            className="w-[100%] px-0 md:w-[650px] lg:w-[450px]"
+            className="w-[300px] px-0 md:w-[400px] lg:w-[450px] lg:px-0"
           />
         </div>
         <div>
