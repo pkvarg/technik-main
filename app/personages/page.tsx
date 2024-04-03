@@ -13,14 +13,14 @@ const Personages = () => {
           Osobnosti
         </h1>
         {/* Krajci */}
-        <div className="flex flex-col items-center justify-center gap-16 bg-[#02144B] px-4 pb-16 pt-8 lg:flex-row lg:gap-[15%] lg:px-[20%] xl:px-[20%] 2xl:gap-[20%]  2xl:px-[25%]">
+        <div className="flex flex-col items-center justify-center gap-16 bg-[#02144B] px-4 pb-0 pt-8 lg:flex-row lg:gap-[15%] lg:px-[20%] xl:px-[20%] 2xl:gap-[20%]  2xl:px-[25%]">
           <div>
             <Image
               src={'/mKrajci.webp'}
               height={500}
               width={500}
               alt="Mirko Krajci"
-              className="w-[300px] px-0 md:w-[400px] lg:w-[450px] lg:px-0"
+              className="w-[250px] px-0 md:w-[400px] lg:w-[450px] lg:px-0"
               //className="w-[100%] px-0 lg:w-[450px]"
             />
           </div>
@@ -62,7 +62,7 @@ const Personages = () => {
         </p>
       </div>
       {/* desktop Torok */}
-      <div className="hidden flex-col items-center justify-center gap-16 bg-black px-4 pb-16 pt-8 lg:flex lg:flex-row lg:gap-[15%] lg:px-[20%]  2xl:px-[25%]">
+      <div className="hidden flex-col items-center justify-center gap-16 bg-black px-4 pb-0 pt-16 lg:flex lg:flex-row lg:gap-[15%] lg:px-[20%]  2xl:px-[25%]">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-center text-[55px] leading-[55px] text-yellow-500 lg:px-0 lg:text-[55px]">
             František Török
@@ -82,14 +82,14 @@ const Personages = () => {
         </div>
       </div>
       {/* mobile Torok */}
-      <div className="flex flex-col items-center justify-center gap-16 bg-black px-4 pb-16 pt-8 lg:hidden">
+      <div className="flex flex-col items-center justify-center gap-12 bg-black px-4 pb-0 pt-14 lg:hidden">
         <div>
           <Image
             src={'/Torok00.jpg'}
             height={500}
             width={500}
             alt="Frantisek Torok"
-            className="w-[300px] px-0 md:w-[400px] lg:w-[450px] lg:px-0"
+            className="w-[250px] px-0 md:w-[400px] lg:w-[450px] lg:px-0"
           />
         </div>
         <div>
@@ -127,14 +127,14 @@ const Personages = () => {
         </p>
       </div>
       {/* Leginus       */}
-      <div className="flex flex-col items-center justify-center gap-8 px-4 pb-16 pt-8 lg:flex-row lg:gap-[15%] lg:px-[20%] xl:px-[20%] 2xl:px-[25%]">
+      <div className="flex flex-col items-center justify-center gap-8 px-4 pb-0 pt-14 lg:flex-row lg:gap-[15%] lg:px-[20%] xl:px-[20%] 2xl:px-[25%]">
         <div>
           <Image
             src={'/mleginus.webp'}
             height={500}
             width={500}
             alt="Martin Leginus"
-            className="w-[300px] px-0 md:w-[400px] lg:w-[450px] lg:px-0"
+            className="w-[250px] px-0 md:w-[400px] lg:w-[450px] lg:px-0"
           />
         </div>
         <div>
@@ -166,7 +166,7 @@ const Personages = () => {
       </div>
       {/* desktop Pragant */}
 
-      <div className="hidden flex-row items-center justify-center gap-16 bg-black px-4 pb-16 pt-8 lg:flex lg:gap-[2.5%] lg:px-[20%]  2xl:px-[25%]">
+      <div className="hidden flex-row items-center justify-center gap-16 bg-black px-4 py-12 lg:flex lg:gap-[2.5%] lg:px-[20%]  2xl:px-[25%]">
         <div className="flex w-[30%] flex-col justify-between gap-[40px]">
           <h1 className="text-center text-[30px] leading-[30px] text-yellow-500 lg:px-0">
             Prof. Ján Pragant
@@ -223,14 +223,14 @@ const Personages = () => {
         </div>
       </div> */}
       {/* mobile Pragant */}
-      <div className="flex flex-col items-center justify-center gap-16 bg-black px-4 pb-16 pt-8 lg:hidden">
+      <div className="flex flex-col items-center justify-center gap-16 bg-black px-4 pb-0 pt-14 lg:hidden">
         <div>
           <Image
             src={'/pragant.webp'}
             height={500}
             width={500}
             alt="jan pragant"
-            className="w-[300px] px-0 md:w-[400px] lg:w-[75%] lg:px-0"
+            className="w-[250px] px-0 md:w-[400px] lg:w-[75%] lg:px-0"
           />
         </div>
         <div>
@@ -259,7 +259,7 @@ const Personages = () => {
       </div>
 
       {/* Drmola desktop      */}
-      <div className="hidden flex-row items-center justify-center gap-16  bg-[#02144B] px-4 pb-16 pt-8 lg:flex lg:gap-[2.5%]  lg:px-[20%] 2xl:px-[25%]">
+      <div className="hidden flex-row items-center justify-center gap-16  bg-[#02144B] px-4 py-12 lg:flex lg:gap-[2.5%]  lg:px-[20%] 2xl:px-[25%]">
         <div className="flex w-[30%] flex-col justify-between gap-[20px]">
           <h1 className="text-center text-[30px] leading-[30px] text-yellow-500 lg:px-0">
             Jindřich Drmola
@@ -294,14 +294,14 @@ const Personages = () => {
         </div>
       </div>
       {/* Drmola mobile */}
-      <div className="flex flex-col items-center justify-center gap-8 px-4 pb-16 pt-8 lg:hidden">
+      <div className="flex flex-col items-center justify-center gap-8 px-4 pb-0 pt-14 lg:hidden">
         <div>
           <Image
             src={'/drmola.jpg'}
             height={500}
             width={500}
             alt="Jindrich Drmola"
-            className="w-[300px] px-0 md:w-[400px] lg:w-[75%] lg:px-0"
+            className="w-[250px] px-0 md:w-[400px] lg:w-[75%] lg:px-0"
           />
         </div>
         <div>
@@ -327,7 +327,7 @@ const Personages = () => {
       </div>
 
       {/* desktop Somora */}
-      <div className="hidden flex-row items-center justify-center gap-16 bg-black px-4 pb-16 pt-8 lg:flex lg:gap-[2.5%] lg:px-[20%]  2xl:px-[25%]">
+      <div className="hidden flex-row items-center justify-center gap-16 bg-black px-4 py-12 lg:flex lg:gap-[2.5%] lg:px-[20%]  2xl:px-[25%]">
         <div className="flex w-[30%] flex-col justify-between gap-[80px]">
           <h1 className="text-center text-[30px] leading-[30px] text-yellow-500 lg:px-0">
             Zdeno Somora
@@ -386,14 +386,14 @@ const Personages = () => {
         </div>
       </div> */}
       {/* mobile Somora */}
-      <div className="flex flex-col items-center justify-center gap-16 bg-black px-4 pb-16 pt-8 lg:hidden">
+      <div className="flex flex-col items-center justify-center gap-16 bg-black px-4 pb-0 pt-14 lg:hidden">
         <div>
           <Image
             src={'/somora.webp'}
             height={500}
             width={500}
             alt="zdeno somora"
-            className="w-[300px] px-0 md:w-[400px] lg:w-[75%] lg:px-0"
+            className="w-[250px] px-0 md:w-[400px] lg:w-[75%] lg:px-0"
           />
         </div>
         <div>
@@ -405,7 +405,7 @@ const Personages = () => {
           </h2>
         </div>
       </div>
-      <div className="flex flex-col gap-4 bg-black px-4 py-12 text-justify text-[20px] text-white lg:hidden">
+      <div className="flex flex-col gap-4 bg-black px-4 pb-6 pt-12 text-justify text-[20px] text-white lg:hidden">
         <p>
           Jeden z dvojice zakladateľov Komorného orchestra Technik. Spolu s
           Jindřichom Drmolom postupne posúvali orchester ako amatérske teleso na
