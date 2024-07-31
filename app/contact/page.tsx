@@ -16,6 +16,8 @@ const Contact = () => {
   const [passwordGroupOne, setPasswordGroupOne] = useState(x);
   const [passwordGroupTwo, setPasswordGroupTwo] = useState(y);
 
+  const origin = 'TECHNIK';
+
   const handleSubmit = async (e: any) => {
     e.preventDefault();
 
